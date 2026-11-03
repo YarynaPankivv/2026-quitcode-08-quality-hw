@@ -14,10 +14,6 @@
 
 —
 
-### Приймання за UAT (трек B)
-
-—
-
 ## Розробник
 
 ### D0 — умова прийняття
@@ -25,7 +21,7 @@
 - `/api/health`: https://school-purchasing.vercel.app/api/health
 - Зелений прогін `smoke` на `main`: https://github.com/YarynaPankivv/school-purchasing/actions/runs/41639491268
 - `accounts.zip` на SHA: https://github.com/YarynaPankivv/school-purchasing/blob/26eda178e6a6c488a3e4f9d703fa14abfb31839a/accounts.zip
-- Ролі тестових акаунтів: адміністратор — admin@example.test, pm-admin@example.test; працівник (requester) — member1@example.test, member2@example.test, approver@example.test, pm-requester@example.test; схвалювач відділу — pm-approver@example.test (роль requester у профілі, схвалює Primary School); працівник без відділів — pm-empty@example.test. Паролі — лише в accounts.zip
+- Ролі тестових акаунтів: адміністратор — admin@example.test, pm-admin@example.test; працівник — member1@example.test, member2@example.test, approver@example.test, pm-requester@example.test, pm-approver@example.test; працівник без відділів — pm-empty@example.test
 - Версія `next`: next@16.4.3
 
 ### Шар якості для 3 AC
