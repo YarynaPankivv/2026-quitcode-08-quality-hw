@@ -30,7 +30,7 @@
 - QA proof pack: https://github.com/YarynaPankivv/school-purchasing/blob/26eda178e6a6c488a3e4f9d703fa14abfb31839a/docs/qa/proof-pack.md
 - Ворота — PR із розбором знахідок (A): https://github.com/YarynaPankivv/school-purchasing/pull/47
 - Ворота — зелений прогін `quality` на `main` (A): https://github.com/YarynaPankivv/school-purchasing/actions/runs/41663140240
-- Ворота — обов'язкові перевірки в `solo-main` (A): «Ворота: fallow audit» і «Покриття: доменна підлога» додано в ruleset 02.11.2026 (поруч зі `spec`, `app`, `conformance`, `db-check`); «Порада: вразливі залежності» не обов'язкова
+- Ворота — обов'язкові перевірки в `solo-main` (A): «Ворота: fallow audit» і «Покриття: доменна підлога» додано в ruleset 02.11.2026 (поруч зі `spec`, `app`, `conformance`, `db-check`); «Порада: вразливі залежності» не обов'язкова — запис у proof pack https://github.com/YarynaPankivv/school-purchasing/blob/26eda178e6a6c488a3e4f9d703fa14abfb31839a/docs/qa/proof-pack.md#L27, PR воріт https://github.com/YarynaPankivv/school-purchasing/pull/47
 - Якість тестів — PR (B): https://github.com/YarynaPankivv/school-purchasing/pull/48
 - Якість тестів — убитий мутант (B): `src/lib/supabase/proxy.ts:24–44` (гілка гостя в `updateSession`, NoCoverage) → AC-FRM-09 → тест https://github.com/YarynaPankivv/school-purchasing/blob/26eda178e6a6c488a3e4f9d703fa14abfb31839a/tests/auth/proxy-guest.test.ts#L18
 - SQL-мутація (B): https://github.com/YarynaPankivv/school-purchasing/pull/48 — вивід `npm run mutation:sql`: 5 з 6 мутантів убито, 1 прийнято як еквівалентний (F1) з поясненням
@@ -38,7 +38,7 @@
 - UAT — звіт на проді (C): https://github.com/YarynaPankivv/school-purchasing/blob/26eda178e6a6c488a3e4f9d703fa14abfb31839a/docs/qa/uat/2026-11-02/report.md
 - UAT — PR зі звітом і відео (C): https://github.com/YarynaPankivv/school-purchasing/pull/49
 - UAT — негативний контроль (C): https://github.com/YarynaPankivv/school-purchasing/pull/49 — NC-1 (AC-FRM-14) → FAIL, NC-2 (AC-FRM-09) → NEEDS-HUMAN
-- Рядки `docs/conformance.md` (C): AC-FRM-09 (реалізовано), AC-FRM-14 (реалізовано), AC-APR-03 (реалізовано); рядків «відкладено (e2e — WS8)» не лишилось
+- Рядки `docs/conformance.md` (C): AC-FRM-09 (реалізовано) https://github.com/YarynaPankivv/school-purchasing/blob/26eda178e6a6c488a3e4f9d703fa14abfb31839a/docs/conformance.md#L155, AC-APR-03 (реалізовано) https://github.com/YarynaPankivv/school-purchasing/blob/26eda178e6a6c488a3e4f9d703fa14abfb31839a/docs/conformance.md#L158, AC-FRM-14 (реалізовано) https://github.com/YarynaPankivv/school-purchasing/blob/26eda178e6a6c488a3e4f9d703fa14abfb31839a/docs/conformance.md#L173; рядків «відкладено (e2e — WS8)» не лишилось
 - Eval рецензента — PR з вадами, не злитий (D): https://github.com/YarynaPankivv/school-purchasing/pull/52
 - Eval рецензента — таблиця й ключ (D): https://github.com/YarynaPankivv/school-purchasing/pull/52#issuecomment-6578245575
 - Eval рецензента — правило й повторний прогін (D): правило — коміт https://github.com/YarynaPankivv/school-purchasing/commit/b75262a9e1a5d59487a5af7cbb8b83d36bbfd507 (PR https://github.com/YarynaPankivv/school-purchasing/pull/53); повторний прогін — https://github.com/YarynaPankivv/school-purchasing/pull/54#issuecomment-6581159803
